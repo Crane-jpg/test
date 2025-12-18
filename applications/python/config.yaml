@@ -1,0 +1,9 @@
+gateway:
+  channel_name: reputationchannel
+  chaincode_name: reputation
+  peer_endpoint: localhost:7051
+  host_alias: peer0.org1.example.com
+  tls_cert_path: ../../network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+  msp_id: Org1MSP
+  cert_path: ../../network/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/cert.pem
+  key_path: ../../network/crypto-config/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore
